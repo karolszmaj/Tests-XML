@@ -34,10 +34,10 @@
   </Style>
   <Style ss:ID="s26" ss:Name="Dobry">
    <Font ss:FontName="Calibri" x:CharSet="238" x:Family="Swiss" ss:Size="11"
-    ss:Color="#006100"/>
+    ss:Color="#008000"/>
    <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
   </Style>
-  <Style ss:ID="s62" ss:Parent="s26">
+  <Style ss:ID="s63" ss:Parent="s26">
    <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
    <Borders>
     <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
@@ -49,17 +49,23 @@
   </Style>
  </Styles>
  <Worksheet ss:Name="Arkusz1">
-  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="1" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="2" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:AutoFitWidth="0" ss:Width="173.25"/>
    <Column ss:AutoFitWidth="0" ss:Width="152.25"/>
    <Column ss:AutoFitWidth="0" ss:Width="207"/>
    <Column ss:AutoFitWidth="0" ss:Width="160.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="31.5">
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Opis słowny jak wyszukać przypadek testowy (klienta, kontrakt itp.)</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Kwerenda wyszukująca przypadek testowy (klienta, kontrakt itp.)</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Operacja do wykonania</Data></Cell>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">Oczekiwany rezultat</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Opis słowny jak wyszukać przypadek testowy (klienta, kontrakt itp.)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Kwerenda wyszukująca przypadek testowy (klienta, kontrakt itp.)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Operacja do wykonania</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Oczekiwany rezultat</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Nowy przypadek testowy</Data></Cell>
+    <Cell><Data ss:Type="String">jakis tam przypadek </Data></Cell>
+    <Cell><Data ss:Type="String">Cos tam zrobić</Data></Cell>
+    <Cell><Data ss:Type="String">Duzo hajsu na konciue.</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -68,7 +74,14 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+    </Pane>
+   </Panes>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
